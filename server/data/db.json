@@ -1,0 +1,148 @@
+{
+  "users": [
+    {
+      "_id": "1771341963103",
+      "username": "Pranav",
+      "progress": {
+        "addition": {
+          "attempts": 7,
+          "successCount": 7,
+          "avgTimeSeconds": 7.922142857142857
+        },
+        "multiplication": {
+          "attempts": 1,
+          "successCount": 1,
+          "avgTimeSeconds": 20
+        }
+      },
+      "createdAt": "2026-02-17T15:26:03.103Z"
+    },
+    {
+      "_id": "1771343850856",
+      "username": "pranav",
+      "progress": {
+        "addition": {
+          "attempts": 3,
+          "successCount": 3,
+          "avgTimeSeconds": 10
+        },
+        "multiplication": {
+          "attempts": 1,
+          "successCount": 1,
+          "avgTimeSeconds": 20
+        }
+      },
+      "createdAt": "2026-02-17T15:57:30.856Z"
+    }
+  ],
+  "reports": [
+    {
+      "_id": "1771341975988",
+      "user": "1771341963103",
+      "moduleName": "addition",
+      "score": 1,
+      "totalQuestions": 1,
+      "timeTakenSeconds": 6.5,
+      "timestamp": "2026-02-17T15:26:15.988Z"
+    },
+    {
+      "_id": "1771341983981",
+      "user": "1771341963103",
+      "moduleName": "addition",
+      "score": 1,
+      "totalQuestions": 1,
+      "timeTakenSeconds": 5.652,
+      "timestamp": "2026-02-17T15:26:23.981Z"
+    },
+    {
+      "_id": "1771341989068",
+      "user": "1771341963103",
+      "moduleName": "addition",
+      "score": 1,
+      "totalQuestions": 1,
+      "timeTakenSeconds": 3.303,
+      "timestamp": "2026-02-17T15:26:29.068Z"
+    },
+    {
+      "_id": "1771342883314",
+      "user": "1771341963103",
+      "moduleName": "addition",
+      "score": 1,
+      "totalQuestions": 1,
+      "timeTakenSeconds": 10,
+      "timestamp": "2026-02-17T15:41:23.314Z"
+    },
+    {
+      "_id": "1771342899321",
+      "user": "1771341963103",
+      "moduleName": "addition",
+      "score": 1,
+      "totalQuestions": 1,
+      "timeTakenSeconds": 10,
+      "timestamp": "2026-02-17T15:41:39.321Z"
+    },
+    {
+      "_id": "1771342940326",
+      "user": "1771341963103",
+      "moduleName": "multiplication",
+      "score": 1,
+      "totalQuestions": 1,
+      "timeTakenSeconds": 20,
+      "timestamp": "2026-02-17T15:42:20.326Z"
+    },
+    {
+      "_id": "1771343857297",
+      "user": "1771343850856",
+      "moduleName": "addition",
+      "score": 1,
+      "totalQuestions": 1,
+      "timeTakenSeconds": 10,
+      "timestamp": "2026-02-17T15:57:37.297Z"
+    },
+    {
+      "_id": "1771343861448",
+      "user": "1771343850856",
+      "moduleName": "addition",
+      "score": 1,
+      "totalQuestions": 1,
+      "timeTakenSeconds": 10,
+      "timestamp": "2026-02-17T15:57:41.449Z"
+    },
+    {
+      "_id": "1771343937086",
+      "user": "1771343850856",
+      "moduleName": "multiplication",
+      "score": 1,
+      "totalQuestions": 1,
+      "timeTakenSeconds": 20,
+      "timestamp": "2026-02-17T15:58:57.086Z"
+    },
+    {
+      "_id": "1771343945739",
+      "user": "1771343850856",
+      "moduleName": "addition",
+      "score": 1,
+      "totalQuestions": 1,
+      "timeTakenSeconds": 10,
+      "timestamp": "2026-02-17T15:59:05.739Z"
+    },
+    {
+      "_id": "1771426146141",
+      "user": "1771341963103",
+      "moduleName": "addition",
+      "score": 1,
+      "totalQuestions": 1,
+      "timeTakenSeconds": 10,
+      "timestamp": "2026-02-18T14:49:06.141Z"
+    },
+    {
+      "_id": "1771473601706",
+      "user": "1771341963103",
+      "moduleName": "addition",
+      "score": 1,
+      "totalQuestions": 1,
+      "timeTakenSeconds": 10,
+      "timestamp": "2026-02-19T04:00:01.707Z"
+    }
+  ]
+}

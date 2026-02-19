@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Verdana', sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+
+  color-scheme: light;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  @apply bg-calm-cream text-soft-charcoal min-h-screen overflow-x-hidden;
+}
+
+/* Custom Scrollbar for a cleaner look */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e0;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a0aec0;
+}
+
+/* Glassmorphism Utilities */
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.glass-dark {
+  background: rgba(30, 41, 59, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Neumorphism Utilities */
+.neumorphism {
+  background: #FDFCF0;
+  box-shadow: 20px 20px 60px #d7d6cc,
+    -20px -20px 60px #ffffff;
+}
+
+.neumorphism-btn {
+  border-radius: 50px;
+  background: #FDFCF0;
+  box-shadow: 5px 5px 10px #d7d6cc,
+    -5px -5px 10px #ffffff;
+  transition: all 0.2s ease;
+}
+
+.neumorphism-btn:active {
+  box-shadow: inset 5px 5px 10px #d7d6cc,
+    inset -5px -5px 10px #ffffff;
+}
